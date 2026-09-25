@@ -1,0 +1,91 @@
+{
+  "name": "@severn-trent/cwqm-design-system",
+  "version": "0.1.0",
+  "description": "Severn Trent CWQM design system: accessible React components, charts and design tokens for the CWQM dashboards, in light and dark themes.",
+  "type": "module",
+  "license": "UNLICENSED",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./styles.css": {
+      "types": "./dist/types/css.d.ts",
+      "default": "./dist/styles.css"
+    },
+    "./tokens.css": {
+      "types": "./dist/types/css.d.ts",
+      "default": "./dist/tokens/tokens.css"
+    },
+    "./tailwind-theme.css": {
+      "types": "./dist/types/css.d.ts",
+      "default": "./dist/tokens/tailwind-theme.css"
+    },
+    "./tokens.json": "./dist/tokens/tokens.json",
+    "./package.json": "./package.json"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "scripts": {
+    "tokens": "node scripts/build-tokens.mjs",
+    "dev": "npm run tokens && storybook dev -p 6006",
+    "storybook": "npm run tokens && storybook dev -p 6006",
+    "build-storybook": "npm run check && storybook build",
+    "typecheck": "tsc --noEmit",
+    "lint:layers": "node scripts/check-layers.mjs",
+    "lint:classes": "node scripts/check-classes.mjs",
+    "check": "npm run tokens && npm run typecheck && npm run lint:layers && npm run lint:classes",
+    "test:install": "playwright install chromium",
+    "test": "npm run tokens && vitest run --project=storybook",
+    "test:watch": "npm run tokens && vitest --project=storybook",
+    "test:coverage": "npm run tokens && vitest run --project=storybook --coverage",
+    "ci": "npm run check && vitest run --project=storybook && storybook build",
+    "build:lib": "npm run check && vite build -c vite.lib.config.ts && tsc -p tsconfig.build.json && node scripts/copy-tokens.mjs",
+    "prepublishOnly": "npm run build:lib"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0 || ^19.0.0",
+    "react-dom": "^18.2.0 || ^19.0.0"
+  },
+  "dependencies": {
+    "@fontsource-variable/plus-jakarta-sans": "^5.3.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.48.0",
+    "recharts": "^3.10.1",
+    "tailwind-merge": "^3.7.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-a11y": "^10.6.0",
+    "@storybook/addon-docs": "^10.6.0",
+    "@storybook/addon-themes": "^10.6.0",
+    "@storybook/addon-vitest": "^10.6.0",
+    "@storybook/react-vite": "^10.6.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "@vitest/browser-playwright": "^4.1.11",
+    "@vitest/coverage-v8": "^4.1.11",
+    "playwright": "^1.63.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "storybook": "^10.6.0",
+    "style-dictionary": "^4.4.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.1",
+    "vitest": "^4.1.11"
+  }
+}

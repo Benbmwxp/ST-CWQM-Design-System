@@ -1,0 +1,64 @@
+import { Meta, Unstyled } from '@storybook/addon-docs/blocks';
+import { IntroPage } from './IntroPage';
+
+<Meta title="Introduction" />
+
+<Unstyled>
+  <IntroPage />
+</Unstyled>
+
+## Reference notes
+
+Components, templates and pages for the Severn Trent Clean Water Quality Monitoring dashboards, built with React, Tailwind CSS v4, Recharts and design tokens. Colours were sampled from the light and dark dashboard designs.
+
+## Structure
+
+The library follows atomic design: Foundations, Atoms, Molecules, Organisms, Templates and Pages, in that order in the sidebar. Each level builds only on the levels below it. See `ARCHITECTURE.md` for what belongs where.
+
+The **Pages** section rebuilds the six dashboards from the library with sample data. View them full screen, at 1600px wide or more.
+
+## How theming works
+
+All colours live in `tokens/themes/light.json` and `tokens/themes/dark.json`, which use the same names and are edited separately. `npm run tokens` turns them into CSS variables and Tailwind classes (for example `bg-surface-default`, `text-content-muted`). Charts read the same variables, so switching `data-theme` re-themes everything, charts included. The build fails if a colour exists in one theme but not the other.
+
+Use the theme switcher in the toolbar to view any story in light or dark. The Accessibility panel runs WCAG 2.1 AA checks on the active theme.
+
+## Commands
+
+| Command | What it does |
+|---|---|
+| `npm install` then `npm run test:install` | First-time setup (the second downloads Chromium for tests) |
+| `npm run storybook` | Build tokens and start Storybook on port 6006 |
+| `npm run check` | Tokens, type check, atomic layer check and class-name check |
+| `npm test` / `npm run test:watch` | Every story as a test in headless Chromium, including accessibility |
+| `npm run test:coverage` | Tests plus a coverage report in `coverage/index.html` |
+| `npm run build-storybook` | Checks, then the static Storybook in `storybook-static/` |
+| `npm run build:lib` | Builds the publishable package into `dist/` |
+| `npm run ci` | Checks, tests and Storybook build - what a pipeline runs |
+
+## Using the package in an app
+
+1. Install it: `npm install @severn-trent/cwqm-design-system` (React 18 or 19).
+2. Import the stylesheet once, at the root of the app: `import '@severn-trent/cwqm-design-system/styles.css'`.
+3. Wrap the app (or any part of it) in `data-theme="light"` or `data-theme="dark"`.
+4. Import components and helpers: `import { KpiTile, DataTable, DualAxisChart, icons, tv } from '@severn-trent/cwqm-design-system'`.
+
+The font loads automatically. Apps that use Tailwind can also import `tokens.css` and `tailwind-theme.css` from the package to use the same classes, such as `bg-surface-default`.
+
+## Publishing a release
+
+Publish to a private registry only (GitHub Packages, Azure Artifacts or the company registry), never to public npm: the package contains Severn Trent design work.
+
+1. One-off: copy `.npmrc.example` to `.npmrc`, set your registry URL, and provide `NPM_TOKEN` as an environment variable (never commit the token).
+2. Make sure `npm run ci` passes.
+3. `npm version patch` (fixes), `minor` (new components) or `major` (breaking changes).
+4. `npm publish` - this builds `dist/` first, then uploads.
+5. `git push --follow-tags`.
+
+## Colour rules
+
+- The operability scale runs from red through amber and yellow to green, as in the designs. Heatmap cells always carry their value as text (visible, or read out when values are hidden), so no reading depends on colour alone.
+- Each parameter (Ammonia_NH3, pH, …) keeps one colour in every chart.
+- Change arrows show direction; their colour shows whether the change is good or bad for that metric. More missing data is shown as bad even though the arrow points up.
+- Tailwind's default palette is switched off. If a colour is not a token, it cannot be used.
+- Sample figures and thresholds in these stories are illustrative until confirmed by the operational teams.

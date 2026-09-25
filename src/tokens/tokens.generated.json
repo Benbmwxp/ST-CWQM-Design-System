@@ -1,0 +1,2360 @@
+{
+  "dark": [
+    {
+      "name": "spacing.3xs",
+      "group": "spacing",
+      "cssVar": "--st-spacing-3xs",
+      "tailwind": "3xs",
+      "value": "2px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "spacing.2xs",
+      "group": "spacing",
+      "cssVar": "--st-spacing-2xs",
+      "tailwind": "2xs",
+      "value": "4px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "spacing.xs",
+      "group": "spacing",
+      "cssVar": "--st-spacing-xs",
+      "tailwind": "xs",
+      "value": "8px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "spacing.sm",
+      "group": "spacing",
+      "cssVar": "--st-spacing-sm",
+      "tailwind": "sm",
+      "value": "12px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "spacing.md",
+      "group": "spacing",
+      "cssVar": "--st-spacing-md",
+      "tailwind": "md",
+      "value": "16px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "spacing.lg",
+      "group": "spacing",
+      "cssVar": "--st-spacing-lg",
+      "tailwind": "lg",
+      "value": "20px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "spacing.xl",
+      "group": "spacing",
+      "cssVar": "--st-spacing-xl",
+      "tailwind": "xl",
+      "value": "24px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "spacing.2xl",
+      "group": "spacing",
+      "cssVar": "--st-spacing-2xl",
+      "tailwind": "2xl",
+      "value": "32px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "spacing.3xl",
+      "group": "spacing",
+      "cssVar": "--st-spacing-3xl",
+      "tailwind": "3xl",
+      "value": "48px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "radius.sm",
+      "group": "radius",
+      "cssVar": "--st-radius-sm",
+      "tailwind": "sm",
+      "value": "4px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "radius.md",
+      "group": "radius",
+      "cssVar": "--st-radius-md",
+      "tailwind": "md",
+      "value": "8px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "radius.lg",
+      "group": "radius",
+      "cssVar": "--st-radius-lg",
+      "tailwind": "lg",
+      "value": "12px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "radius.xl",
+      "group": "radius",
+      "cssVar": "--st-radius-xl",
+      "tailwind": "xl",
+      "value": "16px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "radius.pill",
+      "group": "radius",
+      "cssVar": "--st-radius-pill",
+      "tailwind": "pill",
+      "value": "999px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "font.sans",
+      "group": "font",
+      "cssVar": "--st-font-sans",
+      "tailwind": "sans",
+      "value": "'Plus Jakarta Sans Variable', 'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif",
+      "type": "fontFamily",
+      "description": null
+    },
+    {
+      "name": "font.mono",
+      "group": "font",
+      "cssVar": "--st-font-mono",
+      "tailwind": "mono",
+      "value": "ui-monospace, 'SFMono-Regular', Consolas, monospace",
+      "type": "fontFamily",
+      "description": null
+    },
+    {
+      "name": "text.2xs",
+      "group": "text",
+      "cssVar": "--st-text-2xs",
+      "tailwind": "2xs",
+      "value": "11px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "text.xs",
+      "group": "text",
+      "cssVar": "--st-text-xs",
+      "tailwind": "xs",
+      "value": "12px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "text.sm",
+      "group": "text",
+      "cssVar": "--st-text-sm",
+      "tailwind": "sm",
+      "value": "13px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "text.md",
+      "group": "text",
+      "cssVar": "--st-text-md",
+      "tailwind": "md",
+      "value": "14px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "text.lg",
+      "group": "text",
+      "cssVar": "--st-text-lg",
+      "tailwind": "lg",
+      "value": "16px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "text.xl",
+      "group": "text",
+      "cssVar": "--st-text-xl",
+      "tailwind": "xl",
+      "value": "18px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "text.2xl",
+      "group": "text",
+      "cssVar": "--st-text-2xl",
+      "tailwind": "2xl",
+      "value": "24px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "text.3xl",
+      "group": "text",
+      "cssVar": "--st-text-3xl",
+      "tailwind": "3xl",
+      "value": "32px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "color.surface.page",
+      "group": "color",
+      "cssVar": "--st-color-surface-page",
+      "tailwind": "surface-page",
+      "value": "#021a33",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.surface.default",
+      "group": "color",
+      "cssVar": "--st-color-surface-default",
+      "tailwind": "surface-default",
+      "value": "#04223f",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.surface.subtle",
+      "group": "color",
+      "cssVar": "--st-color-surface-subtle",
+      "tailwind": "surface-subtle",
+      "value": "#062a4d",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.surface.accent",
+      "group": "color",
+      "cssVar": "--st-color-surface-accent",
+      "tailwind": "surface-accent",
+      "value": "#05284a",
+      "type": "color",
+      "description": "Info panels and callouts"
+    },
+    {
+      "name": "color.surface.strong",
+      "group": "color",
+      "cssVar": "--st-color-surface-strong",
+      "tailwind": "surface-strong",
+      "value": "#0b1322",
+      "type": "color",
+      "description": "Dark table header"
+    },
+    {
+      "name": "color.surface.highlight",
+      "group": "color",
+      "cssVar": "--st-color-surface-highlight",
+      "tailwind": "surface-highlight",
+      "value": "#0a3565",
+      "type": "color",
+      "description": "Highlighted value column"
+    },
+    {
+      "name": "color.content.heading",
+      "group": "color",
+      "cssVar": "--st-color-content-heading",
+      "tailwind": "content-heading",
+      "value": "#ffffff",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.content.accent",
+      "group": "color",
+      "cssVar": "--st-color-content-accent",
+      "tailwind": "content-accent",
+      "value": "#f2f8ff",
+      "type": "color",
+      "description": "Card titles, labels, links"
+    },
+    {
+      "name": "color.content.subtle",
+      "group": "color",
+      "cssVar": "--st-color-content-subtle",
+      "tailwind": "content-subtle",
+      "value": "#8fd3fa",
+      "type": "color",
+      "description": "Page subtitles and info text"
+    },
+    {
+      "name": "color.content.default",
+      "group": "color",
+      "cssVar": "--st-color-content-default",
+      "tailwind": "content-default",
+      "value": "#eef4fb",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.content.muted",
+      "group": "color",
+      "cssVar": "--st-color-content-muted",
+      "tailwind": "content-muted",
+      "value": "#8fb0ce",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.content.on-strong",
+      "group": "color",
+      "cssVar": "--st-color-content-on-strong",
+      "tailwind": "content-on-strong",
+      "value": "#ffffff",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.content.on-action",
+      "group": "color",
+      "cssVar": "--st-color-content-on-action",
+      "tailwind": "content-on-action",
+      "value": "#ffffff",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.line.default",
+      "group": "color",
+      "cssVar": "--st-color-line-default",
+      "tailwind": "line-default",
+      "value": "#12375d",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.line.strong",
+      "group": "color",
+      "cssVar": "--st-color-line-strong",
+      "tailwind": "line-strong",
+      "value": "#4a6d94",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.line.focus",
+      "group": "color",
+      "cssVar": "--st-color-line-focus",
+      "tailwind": "line-focus",
+      "value": "#7fb6ff",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.action.primary",
+      "group": "color",
+      "cssVar": "--st-color-action-primary",
+      "tailwind": "action-primary",
+      "value": "#0b5cff",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.action.primary-hover",
+      "group": "color",
+      "cssVar": "--st-color-action-primary-hover",
+      "tailwind": "action-primary-hover",
+      "value": "#3a7bff",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.action.secondary",
+      "group": "color",
+      "cssVar": "--st-color-action-secondary",
+      "tailwind": "action-secondary",
+      "value": "#04223f",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.action.secondary-hover",
+      "group": "color",
+      "cssVar": "--st-color-action-secondary-hover",
+      "tailwind": "action-secondary-hover",
+      "value": "#0a3158",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.action.selected",
+      "group": "color",
+      "cssVar": "--st-color-action-selected",
+      "tailwind": "action-selected",
+      "value": "#0b5cff",
+      "type": "color",
+      "description": "Selected quick filter / segment"
+    },
+    {
+      "name": "color.nav.bg",
+      "group": "color",
+      "cssVar": "--st-color-nav-bg",
+      "tailwind": "nav-bg",
+      "value": "#011834",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.nav.active",
+      "group": "color",
+      "cssVar": "--st-color-nav-active",
+      "tailwind": "nav-active",
+      "value": "#01408b",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.nav.text",
+      "group": "color",
+      "cssVar": "--st-color-nav-text",
+      "tailwind": "nav-text",
+      "value": "#ffffff",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.nav.muted",
+      "group": "color",
+      "cssVar": "--st-color-nav-muted",
+      "tailwind": "nav-muted",
+      "value": "#8fb0ce",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.nav.dot",
+      "group": "color",
+      "cssVar": "--st-color-nav-dot",
+      "tailwind": "nav-dot",
+      "value": "#ff3b4e",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.feedback.positive",
+      "group": "color",
+      "cssVar": "--st-color-feedback-positive",
+      "tailwind": "feedback-positive",
+      "value": "#1fd37a",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.feedback.negative",
+      "group": "color",
+      "cssVar": "--st-color-feedback-negative",
+      "tailwind": "feedback-negative",
+      "value": "#ff5a62",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.feedback.warning",
+      "group": "color",
+      "cssVar": "--st-color-feedback-warning",
+      "tailwind": "feedback-warning",
+      "value": "#ffb547",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.feedback.info",
+      "group": "color",
+      "cssVar": "--st-color-feedback-info",
+      "tailwind": "feedback-info",
+      "value": "#7fb6ff",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.0.bg",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-0-bg",
+      "tailwind": "data-operability-0-bg",
+      "value": "#b8303f",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.0.on",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-0-on",
+      "tailwind": "data-operability-0-on",
+      "value": "#ffffff",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.30.bg",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-30-bg",
+      "tailwind": "data-operability-30-bg",
+      "value": "#f2625b",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.30.on",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-30-on",
+      "tailwind": "data-operability-30-on",
+      "value": "#1b1f2e",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.50.bg",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-50-bg",
+      "tailwind": "data-operability-50-bg",
+      "value": "#fda443",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.50.on",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-50-on",
+      "tailwind": "data-operability-50-on",
+      "value": "#1b1f2e",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.70.bg",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-70-bg",
+      "tailwind": "data-operability-70-bg",
+      "value": "#f9d737",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.70.on",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-70-on",
+      "tailwind": "data-operability-70-on",
+      "value": "#1b1f2e",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.85.bg",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-85-bg",
+      "tailwind": "data-operability-85-bg",
+      "value": "#91d049",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.85.on",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-85-on",
+      "tailwind": "data-operability-85-on",
+      "value": "#1b1f2e",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.93.bg",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-93-bg",
+      "tailwind": "data-operability-93-bg",
+      "value": "#a1e05e",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.93.on",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-93-on",
+      "tailwind": "data-operability-93-on",
+      "value": "#1b1f2e",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.96.bg",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-96-bg",
+      "tailwind": "data-operability-96-bg",
+      "value": "#22b067",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.96.on",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-96-on",
+      "tailwind": "data-operability-96-on",
+      "value": "#0b1f16",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.98.bg",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-98-bg",
+      "tailwind": "data-operability-98-bg",
+      "value": "#2e9f53",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.98.on",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-98-on",
+      "tailwind": "data-operability-98-on",
+      "value": "#0b1f16",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.100.bg",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-100-bg",
+      "tailwind": "data-operability-100-bg",
+      "value": "#02663c",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.100.on",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-100-on",
+      "tailwind": "data-operability-100-on",
+      "value": "#ffffff",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.band.0",
+      "group": "color",
+      "cssVar": "--st-color-data-band-0",
+      "tailwind": "data-band-0",
+      "value": "#f13652",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.band.30",
+      "group": "color",
+      "cssVar": "--st-color-data-band-30",
+      "tailwind": "data-band-30",
+      "value": "#f49141",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.band.50",
+      "group": "color",
+      "cssVar": "--st-color-data-band-50",
+      "tailwind": "data-band-50",
+      "value": "#f9d951",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.band.70",
+      "group": "color",
+      "cssVar": "--st-color-data-band-70",
+      "tailwind": "data-band-70",
+      "value": "#3ccb78",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.band.95",
+      "group": "color",
+      "cssVar": "--st-color-data-band-95",
+      "tailwind": "data-band-95",
+      "value": "#1fa463",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.trend.operability",
+      "group": "color",
+      "cssVar": "--st-color-data-trend-operability",
+      "tailwind": "data-trend-operability",
+      "value": "#67e963",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.trend.missing",
+      "group": "color",
+      "cssVar": "--st-color-data-trend-missing",
+      "tailwind": "data-trend-missing",
+      "value": "#ff3aa5",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.trend.bad",
+      "group": "color",
+      "cssVar": "--st-color-data-trend-bad",
+      "tailwind": "data-trend-bad",
+      "value": "#f98a1c",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.flow.upstream",
+      "group": "color",
+      "cssVar": "--st-color-data-flow-upstream",
+      "tailwind": "data-flow-upstream",
+      "value": "#00b8c2",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.flow.downstream",
+      "group": "color",
+      "cssVar": "--st-color-data-flow-downstream",
+      "tailwind": "data-flow-downstream",
+      "value": "#9b5bff",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.stream.primary",
+      "group": "color",
+      "cssVar": "--st-color-data-stream-primary",
+      "tailwind": "data-stream-primary",
+      "value": "#0fe1e3",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.stream.secondary",
+      "group": "color",
+      "cssVar": "--st-color-data-stream-secondary",
+      "tailwind": "data-stream-secondary",
+      "value": "#ba70f9",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.stream.marker",
+      "group": "color",
+      "cssVar": "--st-color-data-stream-marker",
+      "tailwind": "data-stream-marker",
+      "value": "#ff3b4e",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.quality.good",
+      "group": "color",
+      "cssVar": "--st-color-data-quality-good",
+      "tailwind": "data-quality-good",
+      "value": "#16b8a6",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.quality.fair",
+      "group": "color",
+      "cssVar": "--st-color-data-quality-fair",
+      "tailwind": "data-quality-fair",
+      "value": "#ffbf3c",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.quality.poor",
+      "group": "color",
+      "cssVar": "--st-color-data-quality-poor",
+      "tailwind": "data-quality-poor",
+      "value": "#ff5a62",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.severity.high",
+      "group": "color",
+      "cssVar": "--st-color-data-severity-high",
+      "tailwind": "data-severity-high",
+      "value": "#ff3b4e",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.severity.medium",
+      "group": "color",
+      "cssVar": "--st-color-data-severity-medium",
+      "tailwind": "data-severity-medium",
+      "value": "#ffbf3c",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.severity.low",
+      "group": "color",
+      "cssVar": "--st-color-data-severity-low",
+      "tailwind": "data-severity-low",
+      "value": "#3cd6e6",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.available",
+      "group": "color",
+      "cssVar": "--st-color-data-available",
+      "tailwind": "data-available",
+      "value": "#4b9bff",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.missing",
+      "group": "color",
+      "cssVar": "--st-color-data-missing",
+      "tailwind": "data-missing",
+      "value": "#ff5a62",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.missing-track",
+      "group": "color",
+      "cssVar": "--st-color-data-missing-track",
+      "tailwind": "data-missing-track",
+      "value": "#3a1e33",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.track",
+      "group": "color",
+      "cssVar": "--st-color-data-track",
+      "tailwind": "data-track",
+      "value": "#143458",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.grid",
+      "group": "color",
+      "cssVar": "--st-color-data-grid",
+      "tailwind": "data-grid",
+      "value": "#123456",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.axis",
+      "group": "color",
+      "cssVar": "--st-color-data-axis",
+      "tailwind": "data-axis",
+      "value": "#8fb0ce",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.param.ammonia-nh3",
+      "group": "color",
+      "cssVar": "--st-color-data-param-ammonia-nh3",
+      "tailwind": "data-param-ammonia-nh3",
+      "value": "#3b8bff",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.param.ammonium-nh4",
+      "group": "color",
+      "cssVar": "--st-color-data-param-ammonium-nh4",
+      "tailwind": "data-param-ammonium-nh4",
+      "value": "#34d1c4",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.param.odo-mgl",
+      "group": "color",
+      "cssVar": "--st-color-data-param-odo-mgl",
+      "tailwind": "data-param-odo-mgl",
+      "value": "#9a7bff",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.param.odo-sat",
+      "group": "color",
+      "cssVar": "--st-color-data-param-odo-sat",
+      "tailwind": "data-param-odo-sat",
+      "value": "#ff6fa8",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.param.ph",
+      "group": "color",
+      "cssVar": "--st-color-data-param-ph",
+      "tailwind": "data-param-ph",
+      "value": "#ff9a45",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.param.spconductivity",
+      "group": "color",
+      "cssVar": "--st-color-data-param-spconductivity",
+      "tailwind": "data-param-spconductivity",
+      "value": "#ffcb45",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.param.temperature",
+      "group": "color",
+      "cssVar": "--st-color-data-param-temperature",
+      "tailwind": "data-param-temperature",
+      "value": "#9fb0cc",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.param.turbidity",
+      "group": "color",
+      "cssVar": "--st-color-data-param-turbidity",
+      "tailwind": "data-param-turbidity",
+      "value": "#bcb0f5",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.blue.bg",
+      "group": "color",
+      "cssVar": "--st-color-tone-blue-bg",
+      "tailwind": "tone-blue-bg",
+      "value": "#0b3a7a",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.blue.fg",
+      "group": "color",
+      "cssVar": "--st-color-tone-blue-fg",
+      "tailwind": "tone-blue-fg",
+      "value": "#6fb1ff",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.blue.solid",
+      "group": "color",
+      "cssVar": "--st-color-tone-blue-solid",
+      "tailwind": "tone-blue-solid",
+      "value": "#0a3f8f",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.red.bg",
+      "group": "color",
+      "cssVar": "--st-color-tone-red-bg",
+      "tailwind": "tone-red-bg",
+      "value": "#4a1623",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.red.fg",
+      "group": "color",
+      "cssVar": "--st-color-tone-red-fg",
+      "tailwind": "tone-red-fg",
+      "value": "#ff6b72",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.red.solid",
+      "group": "color",
+      "cssVar": "--st-color-tone-red-solid",
+      "tailwind": "tone-red-solid",
+      "value": "#5e1624",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.teal.bg",
+      "group": "color",
+      "cssVar": "--st-color-tone-teal-bg",
+      "tailwind": "tone-teal-bg",
+      "value": "#08415a",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.teal.fg",
+      "group": "color",
+      "cssVar": "--st-color-tone-teal-fg",
+      "tailwind": "tone-teal-fg",
+      "value": "#3cd6e6",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.teal.solid",
+      "group": "color",
+      "cssVar": "--st-color-tone-teal-solid",
+      "tailwind": "tone-teal-solid",
+      "value": "#015f67",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.orange.bg",
+      "group": "color",
+      "cssVar": "--st-color-tone-orange-bg",
+      "tailwind": "tone-orange-bg",
+      "value": "#4a2a12",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.orange.fg",
+      "group": "color",
+      "cssVar": "--st-color-tone-orange-fg",
+      "tailwind": "tone-orange-fg",
+      "value": "#ff9d4a",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.orange.solid",
+      "group": "color",
+      "cssVar": "--st-color-tone-orange-solid",
+      "tailwind": "tone-orange-solid",
+      "value": "#6a3510",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.green.bg",
+      "group": "color",
+      "cssVar": "--st-color-tone-green-bg",
+      "tailwind": "tone-green-bg",
+      "value": "#0c4a34",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.green.fg",
+      "group": "color",
+      "cssVar": "--st-color-tone-green-fg",
+      "tailwind": "tone-green-fg",
+      "value": "#3ee08a",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.green.solid",
+      "group": "color",
+      "cssVar": "--st-color-tone-green-solid",
+      "tailwind": "tone-green-solid",
+      "value": "#0b5a3a",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.pink.bg",
+      "group": "color",
+      "cssVar": "--st-color-tone-pink-bg",
+      "tailwind": "tone-pink-bg",
+      "value": "#4a1240",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.pink.fg",
+      "group": "color",
+      "cssVar": "--st-color-tone-pink-fg",
+      "tailwind": "tone-pink-fg",
+      "value": "#ff5cc6",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.pink.solid",
+      "group": "color",
+      "cssVar": "--st-color-tone-pink-solid",
+      "tailwind": "tone-pink-solid",
+      "value": "#5e1250",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.purple.bg",
+      "group": "color",
+      "cssVar": "--st-color-tone-purple-bg",
+      "tailwind": "tone-purple-bg",
+      "value": "#2e1a6e",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.purple.fg",
+      "group": "color",
+      "cssVar": "--st-color-tone-purple-fg",
+      "tailwind": "tone-purple-fg",
+      "value": "#b08cff",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.purple.solid",
+      "group": "color",
+      "cssVar": "--st-color-tone-purple-solid",
+      "tailwind": "tone-purple-solid",
+      "value": "#270d7f",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.navy.bg",
+      "group": "color",
+      "cssVar": "--st-color-tone-navy-bg",
+      "tailwind": "tone-navy-bg",
+      "value": "#0a2b52",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.navy.fg",
+      "group": "color",
+      "cssVar": "--st-color-tone-navy-fg",
+      "tailwind": "tone-navy-fg",
+      "value": "#9cc6ff",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.navy.solid",
+      "group": "color",
+      "cssVar": "--st-color-tone-navy-solid",
+      "tailwind": "tone-navy-solid",
+      "value": "#002347",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "shadow.card",
+      "group": "shadow",
+      "cssVar": "--st-shadow-card",
+      "tailwind": "card",
+      "value": "0 0 0 1px rgba(111,166,230,0.10)",
+      "description": null
+    },
+    {
+      "name": "shadow.raised",
+      "group": "shadow",
+      "cssVar": "--st-shadow-raised",
+      "tailwind": "raised",
+      "value": "0 8px 28px rgba(0,0,0,0.45)",
+      "description": null
+    }
+  ],
+  "light": [
+    {
+      "name": "spacing.3xs",
+      "group": "spacing",
+      "cssVar": "--st-spacing-3xs",
+      "tailwind": "3xs",
+      "value": "2px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "spacing.2xs",
+      "group": "spacing",
+      "cssVar": "--st-spacing-2xs",
+      "tailwind": "2xs",
+      "value": "4px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "spacing.xs",
+      "group": "spacing",
+      "cssVar": "--st-spacing-xs",
+      "tailwind": "xs",
+      "value": "8px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "spacing.sm",
+      "group": "spacing",
+      "cssVar": "--st-spacing-sm",
+      "tailwind": "sm",
+      "value": "12px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "spacing.md",
+      "group": "spacing",
+      "cssVar": "--st-spacing-md",
+      "tailwind": "md",
+      "value": "16px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "spacing.lg",
+      "group": "spacing",
+      "cssVar": "--st-spacing-lg",
+      "tailwind": "lg",
+      "value": "20px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "spacing.xl",
+      "group": "spacing",
+      "cssVar": "--st-spacing-xl",
+      "tailwind": "xl",
+      "value": "24px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "spacing.2xl",
+      "group": "spacing",
+      "cssVar": "--st-spacing-2xl",
+      "tailwind": "2xl",
+      "value": "32px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "spacing.3xl",
+      "group": "spacing",
+      "cssVar": "--st-spacing-3xl",
+      "tailwind": "3xl",
+      "value": "48px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "radius.sm",
+      "group": "radius",
+      "cssVar": "--st-radius-sm",
+      "tailwind": "sm",
+      "value": "4px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "radius.md",
+      "group": "radius",
+      "cssVar": "--st-radius-md",
+      "tailwind": "md",
+      "value": "8px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "radius.lg",
+      "group": "radius",
+      "cssVar": "--st-radius-lg",
+      "tailwind": "lg",
+      "value": "12px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "radius.xl",
+      "group": "radius",
+      "cssVar": "--st-radius-xl",
+      "tailwind": "xl",
+      "value": "16px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "radius.pill",
+      "group": "radius",
+      "cssVar": "--st-radius-pill",
+      "tailwind": "pill",
+      "value": "999px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "font.sans",
+      "group": "font",
+      "cssVar": "--st-font-sans",
+      "tailwind": "sans",
+      "value": "'Plus Jakarta Sans Variable', 'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif",
+      "type": "fontFamily",
+      "description": null
+    },
+    {
+      "name": "font.mono",
+      "group": "font",
+      "cssVar": "--st-font-mono",
+      "tailwind": "mono",
+      "value": "ui-monospace, 'SFMono-Regular', Consolas, monospace",
+      "type": "fontFamily",
+      "description": null
+    },
+    {
+      "name": "text.2xs",
+      "group": "text",
+      "cssVar": "--st-text-2xs",
+      "tailwind": "2xs",
+      "value": "11px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "text.xs",
+      "group": "text",
+      "cssVar": "--st-text-xs",
+      "tailwind": "xs",
+      "value": "12px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "text.sm",
+      "group": "text",
+      "cssVar": "--st-text-sm",
+      "tailwind": "sm",
+      "value": "13px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "text.md",
+      "group": "text",
+      "cssVar": "--st-text-md",
+      "tailwind": "md",
+      "value": "14px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "text.lg",
+      "group": "text",
+      "cssVar": "--st-text-lg",
+      "tailwind": "lg",
+      "value": "16px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "text.xl",
+      "group": "text",
+      "cssVar": "--st-text-xl",
+      "tailwind": "xl",
+      "value": "18px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "text.2xl",
+      "group": "text",
+      "cssVar": "--st-text-2xl",
+      "tailwind": "2xl",
+      "value": "24px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "text.3xl",
+      "group": "text",
+      "cssVar": "--st-text-3xl",
+      "tailwind": "3xl",
+      "value": "32px",
+      "type": "dimension",
+      "description": null
+    },
+    {
+      "name": "color.surface.page",
+      "group": "color",
+      "cssVar": "--st-color-surface-page",
+      "tailwind": "surface-page",
+      "value": "#f4f8fd",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.surface.default",
+      "group": "color",
+      "cssVar": "--st-color-surface-default",
+      "tailwind": "surface-default",
+      "value": "#ffffff",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.surface.subtle",
+      "group": "color",
+      "cssVar": "--st-color-surface-subtle",
+      "tailwind": "surface-subtle",
+      "value": "#f2f7fc",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.surface.accent",
+      "group": "color",
+      "cssVar": "--st-color-surface-accent",
+      "tailwind": "surface-accent",
+      "value": "#e8f2fd",
+      "type": "color",
+      "description": "Info panels and callouts"
+    },
+    {
+      "name": "color.surface.strong",
+      "group": "color",
+      "cssVar": "--st-color-surface-strong",
+      "tailwind": "surface-strong",
+      "value": "#1e2b3b",
+      "type": "color",
+      "description": "Dark table header"
+    },
+    {
+      "name": "color.surface.highlight",
+      "group": "color",
+      "cssVar": "--st-color-surface-highlight",
+      "tailwind": "surface-highlight",
+      "value": "#eaf1fc",
+      "type": "color",
+      "description": "Highlighted value column"
+    },
+    {
+      "name": "color.content.heading",
+      "group": "color",
+      "cssVar": "--st-color-content-heading",
+      "tailwind": "content-heading",
+      "value": "#0a0f6e",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.content.accent",
+      "group": "color",
+      "cssVar": "--st-color-content-accent",
+      "tailwind": "content-accent",
+      "value": "#0b22bf",
+      "type": "color",
+      "description": "Card titles, labels, links"
+    },
+    {
+      "name": "color.content.subtle",
+      "group": "color",
+      "cssVar": "--st-color-content-subtle",
+      "tailwind": "content-subtle",
+      "value": "#2353cf",
+      "type": "color",
+      "description": "Page subtitles and info text"
+    },
+    {
+      "name": "color.content.default",
+      "group": "color",
+      "cssVar": "--st-color-content-default",
+      "tailwind": "content-default",
+      "value": "#111827",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.content.muted",
+      "group": "color",
+      "cssVar": "--st-color-content-muted",
+      "tailwind": "content-muted",
+      "value": "#5a6880",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.content.on-strong",
+      "group": "color",
+      "cssVar": "--st-color-content-on-strong",
+      "tailwind": "content-on-strong",
+      "value": "#ffffff",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.content.on-action",
+      "group": "color",
+      "cssVar": "--st-color-content-on-action",
+      "tailwind": "content-on-action",
+      "value": "#ffffff",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.line.default",
+      "group": "color",
+      "cssVar": "--st-color-line-default",
+      "tailwind": "line-default",
+      "value": "#dce6f2",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.line.strong",
+      "group": "color",
+      "cssVar": "--st-color-line-strong",
+      "tailwind": "line-strong",
+      "value": "#8e9db5",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.line.focus",
+      "group": "color",
+      "cssVar": "--st-color-line-focus",
+      "tailwind": "line-focus",
+      "value": "#1d5bff",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.action.primary",
+      "group": "color",
+      "cssVar": "--st-color-action-primary",
+      "tailwind": "action-primary",
+      "value": "#0050f0",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.action.primary-hover",
+      "group": "color",
+      "cssVar": "--st-color-action-primary-hover",
+      "tailwind": "action-primary-hover",
+      "value": "#003ec2",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.action.secondary",
+      "group": "color",
+      "cssVar": "--st-color-action-secondary",
+      "tailwind": "action-secondary",
+      "value": "#ffffff",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.action.secondary-hover",
+      "group": "color",
+      "cssVar": "--st-color-action-secondary-hover",
+      "tailwind": "action-secondary-hover",
+      "value": "#eef4fc",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.action.selected",
+      "group": "color",
+      "cssVar": "--st-color-action-selected",
+      "tailwind": "action-selected",
+      "value": "#0b2a6b",
+      "type": "color",
+      "description": "Selected quick filter / segment"
+    },
+    {
+      "name": "color.nav.bg",
+      "group": "color",
+      "cssVar": "--st-color-nav-bg",
+      "tailwind": "nav-bg",
+      "value": "#012344",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.nav.active",
+      "group": "color",
+      "cssVar": "--st-color-nav-active",
+      "tailwind": "nav-active",
+      "value": "#00519c",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.nav.text",
+      "group": "color",
+      "cssVar": "--st-color-nav-text",
+      "tailwind": "nav-text",
+      "value": "#ffffff",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.nav.muted",
+      "group": "color",
+      "cssVar": "--st-color-nav-muted",
+      "tailwind": "nav-muted",
+      "value": "#a9c1dc",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.nav.dot",
+      "group": "color",
+      "cssVar": "--st-color-nav-dot",
+      "tailwind": "nav-dot",
+      "value": "#ff3b4e",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.feedback.positive",
+      "group": "color",
+      "cssVar": "--st-color-feedback-positive",
+      "tailwind": "feedback-positive",
+      "value": "#03873f",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.feedback.negative",
+      "group": "color",
+      "cssVar": "--st-color-feedback-negative",
+      "tailwind": "feedback-negative",
+      "value": "#d90f27",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.feedback.warning",
+      "group": "color",
+      "cssVar": "--st-color-feedback-warning",
+      "tailwind": "feedback-warning",
+      "value": "#b45a00",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.feedback.info",
+      "group": "color",
+      "cssVar": "--st-color-feedback-info",
+      "tailwind": "feedback-info",
+      "value": "#1d5bff",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.0.bg",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-0-bg",
+      "tailwind": "data-operability-0-bg",
+      "value": "#fdb1af",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.0.on",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-0-on",
+      "tailwind": "data-operability-0-on",
+      "value": "#1b1f2e",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.30.bg",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-30-bg",
+      "tailwind": "data-operability-30-bg",
+      "value": "#feab63",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.30.on",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-30-on",
+      "tailwind": "data-operability-30-on",
+      "value": "#1b1f2e",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.50.bg",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-50-bg",
+      "tailwind": "data-operability-50-bg",
+      "value": "#fdc46d",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.50.on",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-50-on",
+      "tailwind": "data-operability-50-on",
+      "value": "#1b1f2e",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.70.bg",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-70-bg",
+      "tailwind": "data-operability-70-bg",
+      "value": "#fdd179",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.70.on",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-70-on",
+      "tailwind": "data-operability-70-on",
+      "value": "#1b1f2e",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.85.bg",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-85-bg",
+      "tailwind": "data-operability-85-bg",
+      "value": "#b9d272",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.85.on",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-85-on",
+      "tailwind": "data-operability-85-on",
+      "value": "#1b1f2e",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.93.bg",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-93-bg",
+      "tailwind": "data-operability-93-bg",
+      "value": "#90d48b",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.93.on",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-93-on",
+      "tailwind": "data-operability-93-on",
+      "value": "#1b1f2e",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.96.bg",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-96-bg",
+      "tailwind": "data-operability-96-bg",
+      "value": "#48ce92",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.96.on",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-96-on",
+      "tailwind": "data-operability-96-on",
+      "value": "#1b1f2e",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.98.bg",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-98-bg",
+      "tailwind": "data-operability-98-bg",
+      "value": "#27a56c",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.98.on",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-98-on",
+      "tailwind": "data-operability-98-on",
+      "value": "#0b1f16",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.100.bg",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-100-bg",
+      "tailwind": "data-operability-100-bg",
+      "value": "#037e50",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.operability.100.on",
+      "group": "color",
+      "cssVar": "--st-color-data-operability-100-on",
+      "tailwind": "data-operability-100-on",
+      "value": "#ffffff",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.band.0",
+      "group": "color",
+      "cssVar": "--st-color-data-band-0",
+      "tailwind": "data-band-0",
+      "value": "#fd3c40",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.band.30",
+      "group": "color",
+      "cssVar": "--st-color-data-band-30",
+      "tailwind": "data-band-30",
+      "value": "#fd840f",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.band.50",
+      "group": "color",
+      "cssVar": "--st-color-data-band-50",
+      "tailwind": "data-band-50",
+      "value": "#ffc538",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.band.70",
+      "group": "color",
+      "cssVar": "--st-color-data-band-70",
+      "tailwind": "data-band-70",
+      "value": "#34bd7d",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.band.95",
+      "group": "color",
+      "cssVar": "--st-color-data-band-95",
+      "tailwind": "data-band-95",
+      "value": "#057e56",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.trend.operability",
+      "group": "color",
+      "cssVar": "--st-color-data-trend-operability",
+      "tailwind": "data-trend-operability",
+      "value": "#45a307",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.trend.missing",
+      "group": "color",
+      "cssVar": "--st-color-data-trend-missing",
+      "tailwind": "data-trend-missing",
+      "value": "#f01eb5",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.trend.bad",
+      "group": "color",
+      "cssVar": "--st-color-data-trend-bad",
+      "tailwind": "data-trend-bad",
+      "value": "#fe8029",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.flow.upstream",
+      "group": "color",
+      "cssVar": "--st-color-data-flow-upstream",
+      "tailwind": "data-flow-upstream",
+      "value": "#0097b5",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.flow.downstream",
+      "group": "color",
+      "cssVar": "--st-color-data-flow-downstream",
+      "tailwind": "data-flow-downstream",
+      "value": "#8544fd",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.stream.primary",
+      "group": "color",
+      "cssVar": "--st-color-data-stream-primary",
+      "tailwind": "data-stream-primary",
+      "value": "#0885a3",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.stream.secondary",
+      "group": "color",
+      "cssVar": "--st-color-data-stream-secondary",
+      "tailwind": "data-stream-secondary",
+      "value": "#6d0ef9",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.stream.marker",
+      "group": "color",
+      "cssVar": "--st-color-data-stream-marker",
+      "tailwind": "data-stream-marker",
+      "value": "#e5213a",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.quality.good",
+      "group": "color",
+      "cssVar": "--st-color-data-quality-good",
+      "tailwind": "data-quality-good",
+      "value": "#087c6c",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.quality.fair",
+      "group": "color",
+      "cssVar": "--st-color-data-quality-fair",
+      "tailwind": "data-quality-fair",
+      "value": "#fca509",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.quality.poor",
+      "group": "color",
+      "cssVar": "--st-color-data-quality-poor",
+      "tailwind": "data-quality-poor",
+      "value": "#e5343f",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.severity.high",
+      "group": "color",
+      "cssVar": "--st-color-data-severity-high",
+      "tailwind": "data-severity-high",
+      "value": "#e5213a",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.severity.medium",
+      "group": "color",
+      "cssVar": "--st-color-data-severity-medium",
+      "tailwind": "data-severity-medium",
+      "value": "#fca509",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.severity.low",
+      "group": "color",
+      "cssVar": "--st-color-data-severity-low",
+      "tailwind": "data-severity-low",
+      "value": "#0b9fb3",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.available",
+      "group": "color",
+      "cssVar": "--st-color-data-available",
+      "tailwind": "data-available",
+      "value": "#3c8df5",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.missing",
+      "group": "color",
+      "cssVar": "--st-color-data-missing",
+      "tailwind": "data-missing",
+      "value": "#e5343f",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.missing-track",
+      "group": "color",
+      "cssVar": "--st-color-data-missing-track",
+      "tailwind": "data-missing-track",
+      "value": "#fbe1e3",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.track",
+      "group": "color",
+      "cssVar": "--st-color-data-track",
+      "tailwind": "data-track",
+      "value": "#ecf0f6",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.grid",
+      "group": "color",
+      "cssVar": "--st-color-data-grid",
+      "tailwind": "data-grid",
+      "value": "#e3eaf3",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.axis",
+      "group": "color",
+      "cssVar": "--st-color-data-axis",
+      "tailwind": "data-axis",
+      "value": "#5a6880",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.param.ammonia-nh3",
+      "group": "color",
+      "cssVar": "--st-color-data-param-ammonia-nh3",
+      "tailwind": "data-param-ammonia-nh3",
+      "value": "#1747c8",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.param.ammonium-nh4",
+      "group": "color",
+      "cssVar": "--st-color-data-param-ammonium-nh4",
+      "tailwind": "data-param-ammonium-nh4",
+      "value": "#2bb5b5",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.param.odo-mgl",
+      "group": "color",
+      "cssVar": "--st-color-data-param-odo-mgl",
+      "tailwind": "data-param-odo-mgl",
+      "value": "#7c5ce6",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.param.odo-sat",
+      "group": "color",
+      "cssVar": "--st-color-data-param-odo-sat",
+      "tailwind": "data-param-odo-sat",
+      "value": "#e6508f",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.param.ph",
+      "group": "color",
+      "cssVar": "--st-color-data-param-ph",
+      "tailwind": "data-param-ph",
+      "value": "#f2842b",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.param.spconductivity",
+      "group": "color",
+      "cssVar": "--st-color-data-param-spconductivity",
+      "tailwind": "data-param-spconductivity",
+      "value": "#e8b320",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.param.temperature",
+      "group": "color",
+      "cssVar": "--st-color-data-param-temperature",
+      "tailwind": "data-param-temperature",
+      "value": "#5f6e8a",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.data.param.turbidity",
+      "group": "color",
+      "cssVar": "--st-color-data-param-turbidity",
+      "tailwind": "data-param-turbidity",
+      "value": "#9c8fd8",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.blue.bg",
+      "group": "color",
+      "cssVar": "--st-color-tone-blue-bg",
+      "tailwind": "tone-blue-bg",
+      "value": "#e3edff",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.blue.fg",
+      "group": "color",
+      "cssVar": "--st-color-tone-blue-fg",
+      "tailwind": "tone-blue-fg",
+      "value": "#1d4ed8",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.blue.solid",
+      "group": "color",
+      "cssVar": "--st-color-tone-blue-solid",
+      "tailwind": "tone-blue-solid",
+      "value": "#005ccc",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.red.bg",
+      "group": "color",
+      "cssVar": "--st-color-tone-red-bg",
+      "tailwind": "tone-red-bg",
+      "value": "#fde4e6",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.red.fg",
+      "group": "color",
+      "cssVar": "--st-color-tone-red-fg",
+      "tailwind": "tone-red-fg",
+      "value": "#d92d3a",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.red.solid",
+      "group": "color",
+      "cssVar": "--st-color-tone-red-solid",
+      "tailwind": "tone-red-solid",
+      "value": "#b42331",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.teal.bg",
+      "group": "color",
+      "cssVar": "--st-color-tone-teal-bg",
+      "tailwind": "tone-teal-bg",
+      "value": "#ddf6f8",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.teal.fg",
+      "group": "color",
+      "cssVar": "--st-color-tone-teal-fg",
+      "tailwind": "tone-teal-fg",
+      "value": "#0b9fb3",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.teal.solid",
+      "group": "color",
+      "cssVar": "--st-color-tone-teal-solid",
+      "tailwind": "tone-teal-solid",
+      "value": "#017c85",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.orange.bg",
+      "group": "color",
+      "cssVar": "--st-color-tone-orange-bg",
+      "tailwind": "tone-orange-bg",
+      "value": "#feebdd",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.orange.fg",
+      "group": "color",
+      "cssVar": "--st-color-tone-orange-fg",
+      "tailwind": "tone-orange-fg",
+      "value": "#e4712e",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.orange.solid",
+      "group": "color",
+      "cssVar": "--st-color-tone-orange-solid",
+      "tailwind": "tone-orange-solid",
+      "value": "#c45a1c",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.green.bg",
+      "group": "color",
+      "cssVar": "--st-color-tone-green-bg",
+      "tailwind": "tone-green-bg",
+      "value": "#dff6e8",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.green.fg",
+      "group": "color",
+      "cssVar": "--st-color-tone-green-fg",
+      "tailwind": "tone-green-fg",
+      "value": "#0f9a4a",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.green.solid",
+      "group": "color",
+      "cssVar": "--st-color-tone-green-solid",
+      "tailwind": "tone-green-solid",
+      "value": "#0e7a45",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.pink.bg",
+      "group": "color",
+      "cssVar": "--st-color-tone-pink-bg",
+      "tailwind": "tone-pink-bg",
+      "value": "#fde2f3",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.pink.fg",
+      "group": "color",
+      "cssVar": "--st-color-tone-pink-fg",
+      "tailwind": "tone-pink-fg",
+      "value": "#e62aa8",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.pink.solid",
+      "group": "color",
+      "cssVar": "--st-color-tone-pink-solid",
+      "tailwind": "tone-pink-solid",
+      "value": "#b81d84",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.purple.bg",
+      "group": "color",
+      "cssVar": "--st-color-tone-purple-bg",
+      "tailwind": "tone-purple-bg",
+      "value": "#ede5ff",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.purple.fg",
+      "group": "color",
+      "cssVar": "--st-color-tone-purple-fg",
+      "tailwind": "tone-purple-fg",
+      "value": "#7b3ff2",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.purple.solid",
+      "group": "color",
+      "cssVar": "--st-color-tone-purple-solid",
+      "tailwind": "tone-purple-solid",
+      "value": "#4a20aa",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.navy.bg",
+      "group": "color",
+      "cssVar": "--st-color-tone-navy-bg",
+      "tailwind": "tone-navy-bg",
+      "value": "#e1e8f4",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.navy.fg",
+      "group": "color",
+      "cssVar": "--st-color-tone-navy-fg",
+      "tailwind": "tone-navy-fg",
+      "value": "#0a2a66",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "color.tone.navy.solid",
+      "group": "color",
+      "cssVar": "--st-color-tone-navy-solid",
+      "tailwind": "tone-navy-solid",
+      "value": "#00376e",
+      "type": "color",
+      "description": null
+    },
+    {
+      "name": "shadow.card",
+      "group": "shadow",
+      "cssVar": "--st-shadow-card",
+      "tailwind": "card",
+      "value": "0 1px 2px rgba(10,34,80,0.05), 0 6px 20px rgba(10,34,80,0.06)",
+      "description": null
+    },
+    {
+      "name": "shadow.raised",
+      "group": "shadow",
+      "cssVar": "--st-shadow-raised",
+      "tailwind": "raised",
+      "value": "0 8px 28px rgba(10,34,80,0.12)",
+      "description": null
+    }
+  ]
+}

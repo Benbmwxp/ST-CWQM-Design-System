@@ -1,0 +1,7 @@
+# Copy to .npmrc and replace YOUR-REGISTRY-URL. Keep the token in an environment variable.
+#
+# GitHub Packages:   https://npm.pkg.github.com/
+# Azure Artifacts:   https://pkgs.dev.azure.com/<org>/<project>/_packaging/<feed>/npm/registry/
+# Company registry:  ask your platform team for the URL
+@severn-trent:registry=https://YOUR-REGISTRY-URL/
+//YOUR-REGISTRY-URL/:_authToken=${NPM_TOKEN}

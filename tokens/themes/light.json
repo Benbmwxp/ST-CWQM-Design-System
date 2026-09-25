@@ -1,0 +1,505 @@
+{
+  "color": {
+    "surface": {
+      "page": {
+        "$type": "color",
+        "$value": "#F4F8FD"
+      },
+      "default": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "#F2F7FC"
+      },
+      "accent": {
+        "$type": "color",
+        "$value": "#E8F2FD",
+        "$description": "Info panels and callouts"
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "#1E2B3B",
+        "$description": "Dark table header"
+      },
+      "highlight": {
+        "$type": "color",
+        "$value": "#EAF1FC",
+        "$description": "Highlighted value column"
+      }
+    },
+    "content": {
+      "heading": {
+        "$type": "color",
+        "$value": "#0A0F6E"
+      },
+      "accent": {
+        "$type": "color",
+        "$value": "#0B22BF",
+        "$description": "Card titles, labels, links"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "#2353CF",
+        "$description": "Page subtitles and info text"
+      },
+      "default": {
+        "$type": "color",
+        "$value": "#111827"
+      },
+      "muted": {
+        "$type": "color",
+        "$value": "#5A6880"
+      },
+      "on-strong": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      },
+      "on-action": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      }
+    },
+    "line": {
+      "default": {
+        "$type": "color",
+        "$value": "#DCE6F2"
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "#8E9DB5"
+      },
+      "focus": {
+        "$type": "color",
+        "$value": "#1D5BFF"
+      }
+    },
+    "action": {
+      "primary": {
+        "$type": "color",
+        "$value": "#0050F0"
+      },
+      "primary-hover": {
+        "$type": "color",
+        "$value": "#003EC2"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      },
+      "secondary-hover": {
+        "$type": "color",
+        "$value": "#EEF4FC"
+      },
+      "selected": {
+        "$type": "color",
+        "$value": "#0B2A6B",
+        "$description": "Selected quick filter / segment"
+      }
+    },
+    "nav": {
+      "bg": {
+        "$type": "color",
+        "$value": "#012344"
+      },
+      "active": {
+        "$type": "color",
+        "$value": "#00519C"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      },
+      "muted": {
+        "$type": "color",
+        "$value": "#A9C1DC"
+      },
+      "dot": {
+        "$type": "color",
+        "$value": "#FF3B4E"
+      }
+    },
+    "feedback": {
+      "positive": {
+        "$type": "color",
+        "$value": "#03873F"
+      },
+      "negative": {
+        "$type": "color",
+        "$value": "#D90F27"
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "#B45A00"
+      },
+      "info": {
+        "$type": "color",
+        "$value": "#1D5BFF"
+      }
+    },
+    "data": {
+      "operability": {
+        "0": {
+          "bg": {
+            "$type": "color",
+            "$value": "#FDB1AF"
+          },
+          "on": {
+            "$type": "color",
+            "$value": "#1B1F2E"
+          }
+        },
+        "30": {
+          "bg": {
+            "$type": "color",
+            "$value": "#FEAB63"
+          },
+          "on": {
+            "$type": "color",
+            "$value": "#1B1F2E"
+          }
+        },
+        "50": {
+          "bg": {
+            "$type": "color",
+            "$value": "#FDC46D"
+          },
+          "on": {
+            "$type": "color",
+            "$value": "#1B1F2E"
+          }
+        },
+        "70": {
+          "bg": {
+            "$type": "color",
+            "$value": "#FDD179"
+          },
+          "on": {
+            "$type": "color",
+            "$value": "#1B1F2E"
+          }
+        },
+        "85": {
+          "bg": {
+            "$type": "color",
+            "$value": "#B9D272"
+          },
+          "on": {
+            "$type": "color",
+            "$value": "#1B1F2E"
+          }
+        },
+        "93": {
+          "bg": {
+            "$type": "color",
+            "$value": "#90D48B"
+          },
+          "on": {
+            "$type": "color",
+            "$value": "#1B1F2E"
+          }
+        },
+        "96": {
+          "bg": {
+            "$type": "color",
+            "$value": "#48CE92"
+          },
+          "on": {
+            "$type": "color",
+            "$value": "#1B1F2E"
+          }
+        },
+        "98": {
+          "bg": {
+            "$type": "color",
+            "$value": "#27A56C"
+          },
+          "on": {
+            "$type": "color",
+            "$value": "#0B1F16"
+          }
+        },
+        "100": {
+          "bg": {
+            "$type": "color",
+            "$value": "#037E50"
+          },
+          "on": {
+            "$type": "color",
+            "$value": "#FFFFFF"
+          }
+        }
+      },
+      "band": {
+        "95": {
+          "$type": "color",
+          "$value": "#057E56"
+        },
+        "70": {
+          "$type": "color",
+          "$value": "#34BD7D"
+        },
+        "50": {
+          "$type": "color",
+          "$value": "#FFC538"
+        },
+        "30": {
+          "$type": "color",
+          "$value": "#FD840F"
+        },
+        "0": {
+          "$type": "color",
+          "$value": "#FD3C40"
+        }
+      },
+      "trend": {
+        "operability": {
+          "$type": "color",
+          "$value": "#45A307"
+        },
+        "missing": {
+          "$type": "color",
+          "$value": "#F01EB5"
+        },
+        "bad": {
+          "$type": "color",
+          "$value": "#FE8029"
+        }
+      },
+      "flow": {
+        "upstream": {
+          "$type": "color",
+          "$value": "#0097B5"
+        },
+        "downstream": {
+          "$type": "color",
+          "$value": "#8544FD"
+        }
+      },
+      "stream": {
+        "primary": {
+          "$type": "color",
+          "$value": "#0885A3"
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "#6D0EF9"
+        },
+        "marker": {
+          "$type": "color",
+          "$value": "#E5213A"
+        }
+      },
+      "quality": {
+        "good": {
+          "$type": "color",
+          "$value": "#087C6C"
+        },
+        "fair": {
+          "$type": "color",
+          "$value": "#FCA509"
+        },
+        "poor": {
+          "$type": "color",
+          "$value": "#E5343F"
+        }
+      },
+      "severity": {
+        "high": {
+          "$type": "color",
+          "$value": "#E5213A"
+        },
+        "medium": {
+          "$type": "color",
+          "$value": "#FCA509"
+        },
+        "low": {
+          "$type": "color",
+          "$value": "#0B9FB3"
+        }
+      },
+      "available": {
+        "$type": "color",
+        "$value": "#3C8DF5"
+      },
+      "missing": {
+        "$type": "color",
+        "$value": "#E5343F"
+      },
+      "missing-track": {
+        "$type": "color",
+        "$value": "#FBE1E3"
+      },
+      "track": {
+        "$type": "color",
+        "$value": "#ECF0F6"
+      },
+      "grid": {
+        "$type": "color",
+        "$value": "#E3EAF3"
+      },
+      "axis": {
+        "$type": "color",
+        "$value": "#5A6880"
+      },
+      "param": {
+        "ammonia-nh3": {
+          "$type": "color",
+          "$value": "#1747C8"
+        },
+        "ammonium-nh4": {
+          "$type": "color",
+          "$value": "#2BB5B5"
+        },
+        "odo-mgl": {
+          "$type": "color",
+          "$value": "#7C5CE6"
+        },
+        "odo-sat": {
+          "$type": "color",
+          "$value": "#E6508F"
+        },
+        "ph": {
+          "$type": "color",
+          "$value": "#F2842B"
+        },
+        "spconductivity": {
+          "$type": "color",
+          "$value": "#E8B320"
+        },
+        "temperature": {
+          "$type": "color",
+          "$value": "#5F6E8A"
+        },
+        "turbidity": {
+          "$type": "color",
+          "$value": "#9C8FD8"
+        }
+      }
+    },
+    "tone": {
+      "blue": {
+        "bg": {
+          "$type": "color",
+          "$value": "#E3EDFF"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "#1D4ED8"
+        },
+        "solid": {
+          "$type": "color",
+          "$value": "#005CCC"
+        }
+      },
+      "red": {
+        "bg": {
+          "$type": "color",
+          "$value": "#FDE4E6"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "#D92D3A"
+        },
+        "solid": {
+          "$type": "color",
+          "$value": "#B42331"
+        }
+      },
+      "teal": {
+        "bg": {
+          "$type": "color",
+          "$value": "#DDF6F8"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "#0B9FB3"
+        },
+        "solid": {
+          "$type": "color",
+          "$value": "#017C85"
+        }
+      },
+      "orange": {
+        "bg": {
+          "$type": "color",
+          "$value": "#FEEBDD"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "#E4712E"
+        },
+        "solid": {
+          "$type": "color",
+          "$value": "#C45A1C"
+        }
+      },
+      "green": {
+        "bg": {
+          "$type": "color",
+          "$value": "#DFF6E8"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "#0F9A4A"
+        },
+        "solid": {
+          "$type": "color",
+          "$value": "#0E7A45"
+        }
+      },
+      "pink": {
+        "bg": {
+          "$type": "color",
+          "$value": "#FDE2F3"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "#E62AA8"
+        },
+        "solid": {
+          "$type": "color",
+          "$value": "#B81D84"
+        }
+      },
+      "purple": {
+        "bg": {
+          "$type": "color",
+          "$value": "#EDE5FF"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "#7B3FF2"
+        },
+        "solid": {
+          "$type": "color",
+          "$value": "#4A20AA"
+        }
+      },
+      "navy": {
+        "bg": {
+          "$type": "color",
+          "$value": "#E1E8F4"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "#0A2A66"
+        },
+        "solid": {
+          "$type": "color",
+          "$value": "#00376E"
+        }
+      }
+    }
+  },
+  "shadow": {
+    "card": {
+      "$value": "0 1px 2px rgba(10,34,80,0.05), 0 6px 20px rgba(10,34,80,0.06)"
+    },
+    "raised": {
+      "$value": "0 8px 28px rgba(10,34,80,0.12)"
+    }
+  },
+  "$description": "Light theme - colours sampled from the Light dashboard designs."
+}

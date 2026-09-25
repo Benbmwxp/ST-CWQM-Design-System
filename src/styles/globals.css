@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@import "./tokens.css";
+@import "./tailwind-theme.css";
+
+/* `dark:` variant follows data-theme, not the OS setting. */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+@layer base {
+  /* Keep the browser's 16px root so rem sizes (inputs, buttons, widths) stay true;
+     body text uses the 14px token. */
+  html {
+    font-family: var(--st-font-sans);
+    color: var(--st-color-content-default);
+    background: var(--st-color-surface-page);
+    -webkit-font-smoothing: antialiased;
+  }
+  body { font-size: var(--st-text-md); }
+  :focus-visible {
+    outline: 2px solid var(--st-color-line-focus);
+    outline-offset: 2px;
+  }
+  /* Native date/select controls follow the active theme. */
+  [data-theme="dark"] { color-scheme: dark; }
+  [data-theme="light"] { color-scheme: light; }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+  }
+}
+
+@utility tabular { font-variant-numeric: tabular-nums; }
